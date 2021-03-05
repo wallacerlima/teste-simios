@@ -2,6 +2,22 @@
 
 API Rest para identificar DNA de Símios e humanos.
 
+## API endpoints
+
+### Local
+
+```shell
+POST http://localhost:8080/simian [analisa uma sequência de DNA]
+GET http://localhost:8080/stats [statisticas dos DNAs consultados]
+```
+
+### AWS
+
+```shell
+POST http://http://simios-api.sa-east-1.elasticbeanstalk.com/simian [analisa uma sequência de DNA]
+GET http://http://simios-api.sa-east-1.elasticbeanstalk.com/stats [statisticas dos DNAs consultados]
+```
+
 ## Pré-requisitos
 
 Para compilar e executar a aplicação localmente você vai precisar:
@@ -30,20 +46,4 @@ spring.datasource.password={SUA_SENHA}
 Execute o projeto
 ```shell
 mvn spring-boot:run
-```
-
-## API endpoints
-
-### Local
-
-```shell
-POST http://localhost:8080/simian [analisa uma sequência de DNA]
-GET http://localhost:8080/stats [statisticas dos DNAs consultados]
-```
-
-### AWS
-
-```shell
-POST http://http://simios-api.sa-east-1.elasticbeanstalk.com/simian [analisa uma sequência de DNA]
-GET http://http://simios-api.sa-east-1.elasticbeanstalk.com/stats [statisticas dos DNAs consultados]
 ```
