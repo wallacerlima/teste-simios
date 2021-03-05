@@ -14,8 +14,8 @@ GET http://localhost:8080/stats [statisticas dos DNAs consultados]
 ### AWS
 
 ```shell
-POST http://http://simios-api.sa-east-1.elasticbeanstalk.com/simian [analisa uma sequência de DNA]
-GET http://http://simios-api.sa-east-1.elasticbeanstalk.com/stats [statisticas dos DNAs consultados]
+POST http://simios-api.sa-east-1.elasticbeanstalk.com/simian [analisa uma sequência de DNA]
+GET http://simios-api.sa-east-1.elasticbeanstalk.com/stats [statisticas dos DNAs consultados]
 ```
 
 ## Pré-requisitos
